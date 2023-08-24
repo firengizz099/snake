@@ -37,9 +37,8 @@ Updating the Game Screen:
 pygame.display.update(): Updates the game screen.
 Game Over and Cleanup:
 
-Closes Pygame and terminates the program.
 
-
+# Turkce aciklama 
 Bu kod, basit bir yılan oyunu için Python ve Pygame kütüphanesini kullanıyor. Oyundaki amacınız, yılanı kontrol ederek ekrandaki yemleri yemek ve yılanın büyümesini sağlamak. Aynı zamanda yılanın duvarlara veya kendi kendine çarpıp oyunu sonlandırmadan kaçınmaya çalışıyorsunuz. Şimdi kodun bölümlerini açıklayayım:
 
 Kütüphane İmportları ve Başlangıç Ayarları:
