@@ -4,7 +4,7 @@
 This code is a simple Python game using the Pygame library. The goal of the game is to control a snake, eat food on the screen to grow longer, and avoid hitting the walls or itself. Let's break down the sections of the code:
 
 Library Imports and Initial Setup:
-____________________________________
+
 pygame.init(): Initializes the Pygame library.
 Defines initial settings such as screen dimensions and colors.
 Creating the Screen and Settings:
@@ -12,7 +12,7 @@ Creating the Screen and Settings:
 pygame.display.set_mode(): Creates a game screen with the specified dimensions.
 pygame.display.set_caption(): Sets the window title.
 Time Control:
-____________________________________
+
 clock = pygame.time.Clock(): Creates a clock object to control the game's speed.
 Initial Positions and Variables:
 
@@ -20,11 +20,11 @@ Defines the initial coordinates, speed, and dimensions of the snake and food.
 Randomly generates the coordinates of the food.
 Defines variables to control the snake's size and growth.
 Main Game Loop:
-____________________________________
+
 The main game loop begins with while game_continue:.
 When the game ends (game_over == True), it displays the "Game Over!" message and waits for the player to press the quit or restart keys.
 Keyboard Controls:
-____________________________________
+
 pygame.event.get(): Handles keyboard and mouse events.
 Controls the snake's movement by checking keyboard events to move it up, down, left, or right.
 Snake Movement and Collision Detection:
@@ -58,7 +58,7 @@ Yılanın ve yiyeceğin başlangıç koordinatlarını, hızını ve boyutların
 Yiyecek koordinatları rastgele belirlenir.
 Yılanın boyutunu ve büyüme durumunu kontrol eden değişkenler tanımlanır.
 Ana Oyun Döngüsü:
-____________________________________
+
 Oyunun ana döngüsü while oyun_devam: ile başlar.
 Oyun bittiğinde (oyun_bitti == True), "Oyun Bitti!" mesajını görüntüler ve oyuncudan çıkış veya yeniden başlama tuşlarına basmasını bekler.
 Tus Kontrolleri:
