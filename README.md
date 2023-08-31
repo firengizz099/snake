@@ -4,31 +4,31 @@
 This code is a simple Python game using the Pygame library. The goal of the game is to control a snake, eat food on the screen to grow longer, and avoid hitting the walls or itself. Let's break down the sections of the code:
 
 Library Imports and Initial Setup:
-
+________________________________
 pygame.init(): Initializes the Pygame library.
 Defines initial settings such as screen dimensions and colors.
 Creating the Screen and Settings:
-
+________________________________
 pygame.display.set_mode(): Creates a game screen with the specified dimensions.
 pygame.display.set_caption(): Sets the window title.
 Time Control:
-
+________________________________
 clock = pygame.time.Clock(): Creates a clock object to control the game's speed.
 Initial Positions and Variables:
-
+________________________________
 Defines the initial coordinates, speed, and dimensions of the snake and food.
 Randomly generates the coordinates of the food.
 Defines variables to control the snake's size and growth.
 Main Game Loop:
-
+________________________________
 The main game loop begins with while game_continue:.
 When the game ends (game_over == True), it displays the "Game Over!" message and waits for the player to press the quit or restart keys.
 Keyboard Controls:
-
+________________________________
 pygame.event.get(): Handles keyboard and mouse events.
 Controls the snake's movement by checking keyboard events to move it up, down, left, or right.
 Snake Movement and Collision Detection:
-
+________________________________
 Calculates the snake's coordinates and size updates.
 Handles the snake eating food and growing.
 Checks if the snake hits the screen boundaries or itself to determine if the game ends.
@@ -62,16 +62,16 @@ Ana Oyun Döngüsü:
 Oyunun ana döngüsü while oyun_devam: ile başlar.
 Oyun bittiğinde (oyun_bitti == True), "Oyun Bitti!" mesajını görüntüler ve oyuncudan çıkış veya yeniden başlama tuşlarına basmasını bekler.
 Tus Kontrolleri:
-
+________________________________
 pygame.event.get(): Klavye ve fare olaylarını işler.
 Klavye olaylarını kontrol ederek yılanın yukarı, aşağı, sola veya sağa hareket etmesini sağlar.
 Yılanın Hareketi ve Çarpışma Kontrolü:
-
+________________________________
 Yılanın koordinatlarını ve boyunu güncellemek için gerekli hesaplamaları yapar.
 Yılanın yiyeceği yemesi durumunda büyümesini sağlar.
 Yılanın ekran sınırlarına veya kendi kendine çarpışmasına göre oyunun bitip bitmediğini kontrol eder.
 Oyun Ekranının Güncellenmesi:
-
+________________________________
 pygame.display.update(): Oyun ekranını günceller.
 Oyun Sonu ve Temizlik:
 
